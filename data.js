@@ -73,7 +73,7 @@ export default {
       },
 
       link: "/",
-      image: "/images/HEADER.JPEG",
+      image: "/images/HEADER.jpg",
     },
     {
       info: {
