@@ -73,11 +73,11 @@ export default {
       },
 
       link: "/",
-      image: "/images/HEADER.png",
+      image: "/images/panda.png",
     },
     {
       info: {
-        "Company": ["Apple"],
+        "Project": ["Sentinels Dark"],
         "Description": [
           "Looking to improve the overall quality of the product through a design thinking approach, as well as conducting Usability sessions to ensure the product appeals to our users.",
         ],
@@ -88,11 +88,11 @@ export default {
       },
 
       link: "/",
-      image: "/images/spiderman.png",
+      image: "/images/newo.png",
     },
     {
       info: {
-        "Company": ["Apple"],
+        "Project": ["Personal Branding"],
         "Description": [
           "Looking to improve the overall quality of the product through a design thinking approach, as well as conducting Usability sessions to ensure the product appeals to our users.",
         ],
@@ -103,7 +103,7 @@ export default {
       },
 
       link: "/",
-      image: "/images/microsoft.png",
+      image: "/images/metridet.png",
     },
   ],
 
