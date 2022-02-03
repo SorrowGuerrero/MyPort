@@ -17,12 +17,12 @@ export default {
   socialLink: {
     name: "Social Links",
     value: [
-      { name: "Instagram", link: "/" },
-      { name: "Behance", link: "/" },
-      { name: "Twitter", link: "/" },
-      { name: "Twitch", link: "/" },
-      { name: "Youtube", link: "/" },
-      { name: "LinkedIn", link: "/" },
+      { name: "Instagram", link: "https://instagram.com/SorrowGuerrero/" },
+      { name: "Behance", link: "https://behance.net/SorrowGuerrero" },
+      { name: "Twitter", link: "https://twitter.com/SorrowGuerrero" },
+      { name: "Twitch", link: "https://twitch.tv/SorrowGuerrero" },
+      { name: "Youtube", link: "https://www.youtube.com/channel/UC1qOXmc46Lk35bFTN6PL8xA" },
+      { name: "LinkedIn", link: "https://www.linkedin.com/in/john-charles-guerrero-6120b0205" },
     ],
   },
   currentProfession: {
