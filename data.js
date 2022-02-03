@@ -9,20 +9,20 @@ export default {
   accomplishments: {
     name: "Recent Accomplishments",
     value: [
-      "Learned HTML + CSS",
-      "Started a side project",
-      "Cooked meal for myself and choked to death",
+      "Finished project Velocity",
+      "Started a Marketing Plan",
+      "Created concepts for upcoming clientwork",
     ],
   },
   socialLink: {
     name: "Social Links",
     value: [
       { name: "Instagram", link: "/" },
-      { name: "Dribbble", link: "/" },
+      { name: "Behance", link: "/" },
       { name: "Twitter", link: "/" },
-      { name: "Github", link: "/" },
+      { name: "Twitch", link: "/" },
       { name: "Youtube", link: "/" },
-      { name: "Spotify", link: "/" },
+      { name: "LinkedIn", link: "/" },
     ],
   },
   currentProfession: {
@@ -35,7 +35,7 @@ export default {
 
   // Footer
   contactDetails: {
-    name: "Ways to contact me",
+    name: "Let's get in touch!",
     value: [
       {
         name: "Gmail",
@@ -50,8 +50,8 @@ export default {
   currentStatus: {
     name: "What am I upto right now",
     value: [
-      "Walking my dog in the park",
-      "Making dog excuse to go outside",
+      "Drinking my 5th cup of coffee for the day",
+      "Reading a new book",
     ],
   },
 
@@ -62,7 +62,7 @@ export default {
   workExperience: [
     {
       info: {
-        "Company": ["Apple"],
+        "Project": ["Velocity"],
         "Description": [
           "Looking to improve the overall quality of the product through a design thinking approach, as well as conducting Usability sessions to ensure the product appeals to our users.",
         ],
@@ -108,5 +108,5 @@ export default {
   ],
 
   // available options:- light, dark, auto
-  theme: "light",
+  theme: "dark",
 };
