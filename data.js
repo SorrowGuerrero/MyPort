@@ -7,15 +7,15 @@ export default {
 
   // intro
   accomplishments: {
-    name: "Recent Accomplishments",
+    name: "Specialization",
     value: [
-      "Finished project Velocity",
-      "Started a Marketing Plan",
-      "Created concepts for upcoming clientwork",
+      "Art Direction",
+      "Esports Design",
+      "Stream Design",
     ],
   },
   socialLink: {
-    name: "Social Links",
+    name: "Let's Get in Touch!",
     value: [
       { name: "Instagram", link: "https://instagram.com/SorrowGuerrero/" },
       { name: "Behance", link: "https://behance.net/SorrowGuerrero" },
@@ -103,10 +103,10 @@ export default {
       },
 
       link: "/",
-      image: "/images/metridet.png",
+      image: "/images/metride.png",
     },
   ],
 
   // available options:- light, dark, auto
-  theme: "light",
+  theme: "dark",
 };
