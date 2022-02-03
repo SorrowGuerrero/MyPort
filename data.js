@@ -72,7 +72,7 @@ export default {
 	      ],
       },
 
-      link: "/",
+      link: "https://www.behance.net/gallery/135442783/VELOCITY-Premade-Stream-Package",
       image: "/images/panda.png",
     },
     {
@@ -87,7 +87,7 @@ export default {
         ],
       },
 
-      link: "/",
+      link: "https://www.behance.net/gallery/119299325/SENTINELS-DARK",
       image: "/images/newo.png",
     },
     {
@@ -102,7 +102,7 @@ export default {
         ],
       },
 
-      link: "/",
+      link: "https://www.behance.net/gallery/113019399/SORROW-GUERRERO",
       image: "/images/metride.png",
     },
   ],
