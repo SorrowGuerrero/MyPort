@@ -73,7 +73,7 @@ export default {
       },
 
       link: "/",
-      image: "/images/apple.png",
+      image: "/images/PRESENTATION5.png",
     },
     {
       info: {
