@@ -1,9 +1,9 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
-  name: "Henry",
-  email: "therealjohndoe@gmail.com",
+  name: "Sorrow",
+  email: "sorrowguerrero@gmail.com",
   about:
-    "Hey! I'm <b>Henry</b>, a twenty-four years old <b>User Interface</b> and <b>Experience Designer</b> currently based in <b>California</b>.",
+    "Hey! I'm <b>Sorrow</b>, a nineteen year old <b>Esports Designer</b> and <b>Marketing Student</b> currently based in <b>The Philippines</b>.",
 
   // intro
   accomplishments: {
@@ -39,11 +39,11 @@ export default {
     value: [
       {
         name: "Gmail",
-        value: "therealjohndoe@gmail.com",
+        value: "sorrowguerrero@gmail.com",
       },
       {
         name: "Discord",
-        value: "DopeAss#9669",
+        value: "SorrowG#3872",
       },
     ],
   },
@@ -51,7 +51,7 @@ export default {
     name: "What am I upto right now",
     value: [
       "Walking my dog in the park",
-      "Making dog excuse to gawk at the hot girl",
+      "Making dog excuse to go outside",
     ],
   },
 
