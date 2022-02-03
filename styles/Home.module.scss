@@ -1,0 +1,6 @@
+@use "./abstract" as *;
+
+.app {
+	min-height: height(100);
+	position: relative;
+}

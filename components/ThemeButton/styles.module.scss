@@ -1,0 +1,21 @@
+@use "../../styles/abstract" as *;
+
+@include mobile {
+	.theme_button {
+		position: fixed;
+		top: height(90);
+		right: var(--screen-padding);
+
+		width: 40px;
+		z-index: 2;
+		mix-blend-mode: difference;
+		cursor: pointer;
+
+		p {
+			// color: var(--secondary-color);
+			color: white;
+			font: var(--Tag-300);
+			font-weight: 100;
+		}
+	}
+}

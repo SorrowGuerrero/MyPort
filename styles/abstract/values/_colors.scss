@@ -1,0 +1,241 @@
+/* 	
+ *		Colors 
+ */
+
+/* 	
+ *		Primary Colors  
+ */
+
+/*
+ Caribbean Green 
+ */
+$CaribbeanGreen: (
+	hue: (
+		0: #00cc76,
+		20: #33d691,
+		40: #66e0ad,
+		60: #99ebc8,
+		80: #ccf5e4,
+		100: #ffffff,
+	),
+	saturation: (
+		0: #00cc76,
+		20: #00a35e,
+		40: #007a47,
+		60: #00522f,
+		80: #002918,
+		100: #000000,
+	),
+);
+
+@function caribbeanGreen($type: hue, $value: 0) {
+	$map: map-get($CaribbeanGreen, $type);
+	@return map-get($map, $value);
+}
+
+/* 
+ Eucalyptus 
+ */
+$Eucalyptus: (
+	hue: (
+		0: #1de1ae,
+		20: #4ae7be,
+		40: #77edce,
+		60: #a5f3df,
+		80: #d2f9ef,
+		100: #ffffff,
+	),
+	saturation: (
+		0: #1de1ae,
+		20: #17b48b,
+		40: #118768,
+		60: #0c5a46,
+		80: #062d23,
+		100: #000000,
+	),
+);
+
+@function eucalyptus($type: hue, $value: 0) {
+	$map: map-get($Eucalyptus, $type);
+	@return map-get($map, $value);
+}
+
+/*
+ Lavender Magenta 
+ */
+$LavenderMagenta: (
+	hue: (
+		0: #e888ff,
+		20: #eda0ff,
+		40: #f1b8ff,
+		60: #f6cfff,
+		80: #fae7ff,
+		100: #ffffff,
+	),
+	saturation: (
+		0: #e888ff,
+		20: #ba6dcc,
+		40: #8b5299,
+		60: #5d3666,
+		80: #2e1b33,
+		100: #000000,
+	),
+);
+
+@function lavenderMagenta($type: hue, $value: 0) {
+	$map: map-get($LavenderMagenta, $type);
+	@return map-get($map, $value);
+}
+
+/*
+ Floral Lavender 
+ */
+$FloralLavender: (
+	hue: (
+		0: #ab80ff,
+		20: #bc99ff,
+		40: #cdb3ff,
+		60: #ddccff,
+		80: #eee6ff,
+		100: #ffffff,
+	),
+	saturation: (
+		0: #ab80ff,
+		20: #8966cc,
+		40: #674d99,
+		60: #443366,
+		80: #221a33,
+		100: #000000,
+	),
+);
+
+@function floralLavender($type: hue, $value: 0) {
+	$map: map-get($FloralLavender, $type);
+	@return map-get($map, $value);
+}
+
+/*
+ Picton Blue 
+ */
+$PictonBlue: (
+	hue: (
+		0: #3ec2f1,
+		20: #65cef4,
+		40: #8bdaf7,
+		60: #b2e7f9,
+		80: #d8f3fc,
+		100: #ffffff,
+	),
+	saturation: (
+		0: #3ec2f1,
+		20: #329bc1,
+		40: #257491,
+		60: #194e60,
+		80: #0c2730,
+		100: #000000,
+	),
+);
+
+@function pictonBlue($type: hue, $value: 0) {
+	$map: map-get($PictonBlue, $type);
+	@return map-get($map, $value);
+}
+
+/*
+ Crayola Red 
+ */
+$CrayolaRed: (
+	hue: (
+		0: #ff5350,
+		20: #ff7573,
+		40: #ff9896,
+		60: #ffbab9,
+		80: #ffdddc,
+		100: #ffffff,
+	),
+	saturation: (
+		0: #ff5350,
+		20: #cc4240,
+		40: #993230,
+		60: #662120,
+		80: #331110,
+		100: #000000,
+	),
+);
+
+@function crayolaRed($type: hue, $value: 0) {
+	$map: map-get($CrayolaRed, $type);
+	@return map-get($map, $value);
+}
+
+/*
+ Orange RYB
+ */
+$OrangeRYB: (
+	hue: (
+		0: #f89800,
+		20: #f9ad33,
+		40: #fbc166,
+		60: #fcd699,
+		80: #feeacc,
+		100: #ffffff,
+	),
+	saturation: (
+		0: #f89800,
+		20: #c67a00,
+		40: #955b00,
+		60: #633d00,
+		80: #321e00,
+		100: #000000,
+	),
+);
+
+@function orangeRYB($type: hue, $value: 0) {
+	$map: map-get($OrangeRYB, $type);
+	@return map-get($map, $value);
+}
+
+/*
+ Maximum Yellow 
+ */
+$MaximumYellow: (
+	hue: (
+		0: #fff439,
+		20: #fff661,
+		40: #fff888,
+		60: #fffbb0,
+		80: #fffdd7,
+		100: #ffffff,
+	),
+	saturation: (
+		0: #fff439,
+		20: #ccc32e,
+		40: #999222,
+		60: #666217,
+		80: #33310b,
+		100: #000000,
+	),
+);
+
+@function maximumYellow($type: hue, $value: 0) {
+	$map: map-get($MaximumYellow, $type);
+	@return map-get($map, $value);
+}
+
+/* 	
+ *		Secondary Colors 
+ */
+
+$SecondaryColor: (
+	PureWhite: #ffffff,
+	OffWhite: #f7f9fb,
+	LongBorder: #e5e5e5,
+	LightGray: #b5b5b5,
+	Gray: #8d8f9a,
+	AcceptableBlack: #252525,
+	PureBlack: #000000,
+);
+
+@function secondaryColor($color) {
+	@return map-get($map: $SecondaryColor, $key: $color);
+} ;

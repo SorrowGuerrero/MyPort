@@ -1,0 +1,119 @@
+@use "../../styles/abstract" as *;
+
+@include mobile {
+	.front_face {
+		--front_face-pt: 4rem;
+
+		--h1-about-width: 100%;
+		--h1-about-max-width: 516px;
+		--h1-margin: 0;
+
+		--intro-pt: 3.875rem;
+		--intro-container-width: 100%;
+		--intro-container-min-width: none;
+		--intro-container-grid-flow: row;
+
+		padding: var(--front_face-pt) var(--screen-padding) 0 var(--screen-padding);
+
+		> .container {
+			width: 100%;
+
+			h1 {
+				width: var(--h1-about-width);
+				max-width: var(--h1-about-max-width);
+				margin: var(--h1-margin);
+				padding: 1rem 0;
+
+				font: var(--H1-300);
+				color: var(--about-color);
+
+				b {
+					font-weight: 500;
+				}
+			}
+
+			.quick_intro {
+				padding: var(--intro-pt) 0;
+
+				> .quick_intro_container {
+					display: grid;
+					grid-auto-flow: var(--intro-container-grid-flow);
+					justify-content: space-between;
+					row-gap: 3.5rem;
+
+					width: var(--intro-container-width);
+					min-width: var(--intro-container-min-width);
+					margin: 0 auto;
+
+					.intro_item {
+						h2 {
+							font: var(--Tag-400);
+							font-weight: normal;
+							text-transform: uppercase;
+							color: var(--secondary-color);
+						}
+
+						.items {
+							padding-top: 1.5rem;
+
+							.items_container {
+								display: grid;
+								grid-auto-flow: row;
+								row-gap: 0.75rem;
+
+								a,
+								p {
+									font: var(--Tag-300);
+									color: var(--tertiary-color);
+									max-width: 190px;
+								}
+							}
+
+							.link {
+								width: 164px;
+								grid-auto-flow: column;
+								grid-template-rows: 1fr 1fr 1fr;
+
+								a:hover {
+									color: var(--secondary-color);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include tablet {
+	.front_face {
+		--front_face-pt: 6rem;
+
+		--h1-about-width: 516px;
+		--h1-about-max-width: fit-content;
+		--h1-margin: 0 auto;
+
+		--intro-pt: 5rem;
+		--intro-container-width: 68%;
+		--intro-container-min-width: 693px;
+		--intro-container-grid-flow: column;
+	}
+}
+
+@include desktopSmall {
+	.front_face {
+		--front_face-pt: 6.875rem;
+		--h1-about-width: 860px;
+		--intro-pt: 4rem;
+
+		> .container {
+			h1 {
+				padding-right: 92px;
+			}
+			.quick_intro .quick_intro_container {
+				max-width: 860px;
+			}
+		}
+	}
+}

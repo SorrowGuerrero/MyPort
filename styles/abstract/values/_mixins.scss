@@ -1,0 +1,61 @@
+@function height($value: 100) {
+	@return calc(var(--vh, 1vh) * $value);
+}
+
+/* 	
+ *		FlexBox 
+ */
+
+@mixin flex-start {
+	display: flex;
+	align-items: flex-start;
+}
+@mixin flex-start-col {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+}
+@mixin flex-center-col {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+@mixin flex--center {
+	display: flex;
+	justify-content: center;
+}
+@mixin flex--center-col {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+@mixin flex-center-sb {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+@mixin flex-center-sb-col {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@mixin flex-center-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@mixin flex-center-center-col {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	flex-direction: column;
+}

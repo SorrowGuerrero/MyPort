@@ -1,0 +1,60 @@
+@use "../../styles/abstract" as *;
+
+@include mobile {
+	.work_section {
+		--work-row-gap: 128px;
+		--work-pt: calc(50px + 1rem);
+
+		> .container {
+			display: grid;
+			padding-top: var(--container-pt);
+
+			.indicator {
+				display: none;
+				p {
+					font: var(--Tag-300);
+					font-weight: 400;
+					color: var(--secondary-color);
+				}
+			}
+			.work {
+				display: grid;
+				row-gap: var(--work-row-gap);
+				padding-top: var(--work-pt);
+			}
+		}
+	}
+}
+
+@include tablet {
+	.work_section {
+		--indicator-height: 3.5rem;
+		--container-pt: 3rem;
+		--work-pt: 128px;
+
+		> .container {
+			.indicator {
+				@include flex-center-col;
+
+				width: fit-content;
+				padding-left: var(--screen-padding);
+
+				.vertical_bar {
+					margin-top: 0.5rem;
+					width: 1px;
+					height: var(--indicator-height);
+					background-color: var(--secondary-color);
+				}
+			}
+		}
+	}
+}
+
+@include desktopSmall {
+	.work_section {
+		--container-pt: 2rem;
+		--indicator-height: 5rem;
+		--work-row-gap: 144px;
+		--work-pt: 144px;
+	}
+}

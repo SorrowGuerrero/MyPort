@@ -1,0 +1,18 @@
+/* 	
+ *		Transition Time 
+ */
+$transitionTime: 0.2s;
+
+/* 	
+ *		Transition 
+ */
+
+@mixin transitionEaseIn($for: all, $time: $transitionTime) {
+	transition: $for $time ease-in;
+}
+@mixin transitionEaseOut($for: all, $time: $transitionTime) {
+	transition: $for $time ease-out;
+}
+@mixin transitionEaseInOut($for: all, $time: $transitionTime) {
+	transition: $for $time ease-in-out;
+}

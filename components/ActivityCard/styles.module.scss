@@ -1,0 +1,110 @@
+@use "../../styles/abstract" as *;
+
+@include mobile {
+	.activityCard {
+		--info-padding: 0 var(--screen-padding);
+		--info-container-width: 100%;
+		--info-container-min-width: none;
+		--info-container-grid-flow: row;
+		--info-container-item-max-width: 320px;
+
+		> .container {
+			.info {
+				padding: var(--info-padding);
+
+				> .info_container {
+					display: grid;
+					grid-auto-flow: var(--info-container-grid-flow);
+					justify-content: space-between;
+					row-gap: 3.5rem;
+
+					width: var(--info-container-width);
+					min-width: var(--info-container-min-width);
+					margin: 0 auto;
+
+					.infoItem {
+						h2 {
+							font: var(--Tag-400);
+							font-weight: normal;
+							color: var(--secondary-color);
+							text-transform: uppercase;
+						}
+
+						.items {
+							padding-top: 1.5rem;
+
+							.items_container {
+								display: grid;
+								grid-auto-flow: row;
+								row-gap: 0.75rem;
+
+								a,
+								p {
+									font: var(--Tag-300);
+									color: var(--tertiary-color);
+									width: fit-content;
+									max-width: var(--info-container-item-max-width);
+								}
+							}
+						}
+					}
+				}
+			}
+			.image {
+				display: block;
+				margin-right: auto;
+				margin-top: 3.5rem;
+
+				height: height(50);
+				width: 92%;
+				min-width: min(calc(100% - 20px), 370px);
+				max-width: 764px;
+
+				.image_container {
+					position: relative;
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+}
+
+@include tablet {
+	.activityCard {
+		--info-container-width: 68%;
+		--info-container-min-width: 693px;
+		--info-container-grid-flow: column;
+		--info-container-item-max-width: 320px;
+
+		.container .info {
+			padding: 0;
+
+			.info_container {
+				grid-template-columns: 1fr 6fr 2fr;
+				justify-items: center;
+			}
+		}
+		.container .image {
+			margin-top: 5rem;
+
+			width: 87.5%;
+			min-width: 764px;
+			height: height(60);
+			max-width: 1260px;
+		}
+	}
+}
+
+@include desktopSmall {
+	.activityCard {
+		> .container {
+			h1 {
+				padding-right: 92px;
+			}
+			.info .info_container {
+				max-width: 860px;
+			}
+		}
+	}
+}

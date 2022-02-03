@@ -1,0 +1,70 @@
+@use "../../styles/abstract" as *;
+
+@include mobile {
+	.app_header {
+		--header-pt: 1rem;
+		--navItems-margin: 2rem;
+
+		padding: 1.5rem var(--screen-padding) 1rem var(--screen-padding);
+		margin-top: var(--header-pt);
+
+		position: sticky;
+		top: 0;
+		z-index: 3;
+		background-color: var(--primary-color);
+
+		> .container {
+			@include flex-center-sb;
+
+			a {
+				font: var(--Tag-300);
+				font-weight: 400;
+				text-transform: uppercase;
+			}
+
+			.logo {
+				@include flex-center;
+
+				a {
+					color: var(--secondary-color);
+				}
+			}
+
+			.navbar .container {
+				display: grid;
+				grid-auto-flow: column;
+				column-gap: var(--navItems-margin);
+
+				li {
+					@include flex-center;
+					list-style-type: none;
+					padding: 0 0.25rem;
+
+					a {
+						color: var(--tertiary-color);
+						transition: color 0.1 ease;
+
+						&:hover,
+						&:active {
+							color: var(--secondary-color);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include tablet {
+	.app_header {
+		--header-pt: 2rem;
+		--navItems-margin: 3rem;
+	}
+}
+
+@include desktopSmall {
+	.app_header {
+		--header-pt: 3.5rem;
+		--navItems-margin: 4.5rem;
+	}
+}
