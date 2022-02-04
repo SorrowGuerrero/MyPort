@@ -66,12 +66,12 @@ export default {
         "Description": [
           "Personal Branding Project created in order to personify the brand identity that is SorrowGuerrero. Focuses on high contrast and standing out, takes inspiration from real-world design.",
         ],
-	      "My Objectives": [
-	        "Personify",
-	        "Make an Impression",
-	        "Be Timeless"
+        "My Objectives": [
+          "User Testing",
+          "Accessibility improvements"
+        ],
+      },
      
-
       link: "https://www.behance.net/gallery/135442783/VELOCITY-Premade-Stream-Package",
       image: "/images/SORROW.jpg",
     },
