@@ -67,8 +67,8 @@ export default {
           "Personal Branding Project created in order to personify the brand identity that is SorrowGuerrero. Focuses on high contrast and standing out, takes inspiration from real-world design.",
         ],
         "My Objectives": [
-          "User Testing",
-          "Accessibility improvements"
+          "Be Timeless",
+          "Personify"
         ],
       },
      
@@ -79,31 +79,31 @@ export default {
       info: {
         "Project": ["Sentinels Dark"],
         "Description": [
-          "Looking to improve the overall quality of the product through a design thinking approach, as well as conducting Usability sessions to ensure the product appeals to our users.",
+          "The creation of this project was initially an experiment to take a team's branding and shift it into an entirely different direction.",
         ],
         "My Objectives": [
-          "User Testing",
-          "Accessibility improvements"
+          "Create a new direction",
+          "Enhance the Sentinels experience"
         ],
       },
 
       link: "https://www.behance.net/gallery/119299325/SENTINELS-DARK",
-      image: "/images/SENTINELS.jpg",
+      image: "/images/SENTINELS1.jpg",
     },
     {
       info: {
         "Project": ["Velocity"],
         "Description": [
-          "Looking to improve the overall quality of the product through a design thinking approach, as well as conducting Usability sessions to ensure the product appeals to our users.",
+          "Looking to improve the overall quality of Stream packages and to enhance the viewing experience for the viewers watching.",
         ],
         "My Objectives": [
-          "User Testing", 
-          "Accessibility improvements"
+          "Enhance streaming", 
+          "Stand out from most stream packages"
         ],
       },
 
       link: "https://www.behance.net/gallery/113019399/SORROW-GUERRERO",
-      image: "/images/VELOCITY.jpg",
+      image: "/images/VELOCITY1.jpg",
     },
   ],
 
