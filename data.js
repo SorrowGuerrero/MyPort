@@ -3,7 +3,7 @@ export default {
   name: "Sorrow",
   email: "sorrowguerrero@gmail.com",
   about:
-    "Hey! I'm <b>Sorrow</b>, a nineteen year old <b>Esports Designer</b> and <b>Marketing Student</b> currently based in <b>The Philippines</b>.",
+    "Hey! I'm <b>Sorrow</b>, a nineteen year old <b>Esports Designer</b> and <b>Marketing Student</b> from <b>The Philippines</b>.",
 
   // intro
   accomplishments: {
@@ -62,7 +62,7 @@ export default {
   workExperience: [
     {
       info: {
-        "Project": ["Velocity"],
+        "Project": ["Personal Branding"],
         "Description": [
           "Looking to improve the overall quality of the product through a design thinking approach, as well as conducting Usability sessions to ensure the product appeals to our users.",
         ],
@@ -92,7 +92,7 @@ export default {
     },
     {
       info: {
-        "Project": ["Personal Branding"],
+        "Project": ["Velocity"],
         "Description": [
           "Looking to improve the overall quality of the product through a design thinking approach, as well as conducting Usability sessions to ensure the product appeals to our users.",
         ],
