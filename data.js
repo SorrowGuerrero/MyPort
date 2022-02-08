@@ -103,7 +103,7 @@ export default {
       },
 
       link: "https://www.behance.net/gallery/113019399/SORROW-GUERRERO",
-      image: "/images/VELOCITY1.jpg",
+      image: "/images/VELOCITY2.jpg",
     },
   ],
 
