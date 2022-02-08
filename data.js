@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
-  name: "Sorrow",
+  name: "SorrowGuerrero",
   email: "sorrowguerrero@gmail.com",
   about:
     "Hey! I'm <b>Sorrow</b>, a nineteen year old <b>Esports Designer</b> and <b>Marketing Student</b> from <b>The Philippines</b>.",
